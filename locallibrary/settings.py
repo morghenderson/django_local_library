@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'qp1&)=2%^aa_p2dmcagz3x@#rq90h4
 #DEBUG = True #Tutorial 11: Publishing to Heroku. Set this as false.
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['boiling-sea-88111.herokuapp.com'] #from https://stackoverflow.com/questions/31685688/is-allowed-hosts-needed-on-heroku/49374520#49374520
+ALLOWED_HOSTS = ['boiling-sea-88111.herokuapp.com', '127.0.0.1'] #from https://stackoverflow.com/questions/31685688/is-allowed-hosts-needed-on-heroku/49374520#49374520
 
 
 # Application definition
